@@ -1,0 +1,36 @@
+# Environment
+venv/
+*.pyc
+__pycache__/
+
+# Secrets
+.env
+
+# Database
+*.db
+*.sqlite3
+
+# NLP Models / Cache
+*.topic_model
+*_model/
+*.pt
+*.bin
+*.safetensors
+nlp/topic_model_cache/
+
+# IDE folders
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+.venv/
+__pycache__/
+*.pyc
+.env
+*.db
+nlp/topic_model_cache/
+.vscode/
+.ipynb_checkpoints/
